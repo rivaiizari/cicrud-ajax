@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'dbizariazure.database.windows.net',
-	'username' => 'dbizariazure',
+	'hostname' => 'dbizariazur.database.windows.net',
+	'username' => 'dbizariazur',
 	'password' => '14051995Dp',
 	'database' => 'web3',
-	// 'dbdriver' => 'mysqli',
+	//'dbdriver' => 'mysqli',
 	'dbdriver' => 'sqlsrv',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
