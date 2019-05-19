@@ -100,7 +100,7 @@
 			}else{
 				address.parent().parent().removeClass('has-error');
 				result +='2';
-			}
+			} 
 
 			if(result=='12'){
 				$.ajax({

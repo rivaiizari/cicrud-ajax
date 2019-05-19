@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'ci_ajax_db',
+	'hostname' => 'dbizariazure.database.windows.net',
+	'username' => 'dbizariazure',
+	'password' => '14051995Dp',
+	'database' => 'web3',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

@@ -27,7 +27,6 @@ class Employee_m extends CI_Model{
 	}
 
 	public function editEmployee(){
-		$id = $this->input->get('id');
 		$this->db->where('id', $id);
 		$query = $this->db->get('tbl_employees');
 		if($query->num_rows() > 0){
