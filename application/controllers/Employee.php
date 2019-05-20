@@ -52,4 +52,8 @@ Class Employee extends CI_Controller{
 		echo json_encode($msg);
 	}
 
+	public function cekdbs(){
+		$cek = $this->db->query("SELECT MAX(id) AS id FROM employee_m");
+    	$jumlah = $cek->num_rows();
+	}
 }
